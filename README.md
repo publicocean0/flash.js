@@ -7,5 +7,6 @@ Flash.register(sfw_object) returns {
  }
 Flash.unregister(sfw_object)
 Flash.isEnabled()
-Flash.trigger(id,name,args...) it is called directly by Flash automatically. Flash component will call this api passing the id of its swf component that is received in flashvars
+Flash.trigger(id,name,args...) it is called directly by Flash automatically:
+ Flash component will call this api passing the id of its swf component that is received in flashvars
 </pre>
