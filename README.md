@@ -2,10 +2,10 @@
 Utility for handling events from flash
 <pre>
 Flash.register(sfw_object) returns {
-  on(name,func)
-  off(name,func) 
+  on(eventname,func) // register a listener 
+  off(eventname,func) // unregister a listener
  }
 Flash.unregister(sfw_object)
 Flash.isEnabled()
-Flash.trigger(id,name,args...)
+Flash.trigger(id,name,args...) it is called directly by Flash automatically. You have not to use this api
 </pre>
